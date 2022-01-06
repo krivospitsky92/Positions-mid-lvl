@@ -11,6 +11,7 @@ main {
   width: 90vw;
   height: 100vh;
   margin: 100px auto;
+  position: relative;
 }
 
 .section-1,
@@ -22,7 +23,9 @@ main {
   display: inline-block;
   width: 500px;
   height: 300px;
-  padding-right: 100px;
+  position: absolute;
+  left: 10px;
+  padding-right: 30px;
   border: 1px solid transparent;
   border-radius: 10px;
   background: linear-gradient(
@@ -36,6 +39,8 @@ main {
   display: inline-block;
   width: 500px;
   height: 300px;
+  position: absolute;
+  left: 550px;
   border: 1px solid transparent;
   border-radius: 10px;
   background: linear-gradient(
@@ -49,6 +54,8 @@ main {
   display: inline-block;
   width: 500px;
   height: 300px;
+  position: absolute;
+  left: 1090px;
   border: 1px solid transparent;
   border-radius: 10px;
   background: linear-gradient(
@@ -56,4 +63,23 @@ main {
     rgba(46, 217, 197, 1) 0%,
     rgba(125, 217, 210, 1) 100%
   );
+}
+
+.header-text,
+.parag {
+  position: absolute;
+  color: whitesmoke;
+  font-family: sans-serif;
+}
+
+.header-text {
+  font-size: 1.5em;
+  top: 60px;
+  left: 50px;
+}
+
+.parag {
+  font-size: 3em;
+  top: 80px;
+  left: 50px;
 }
