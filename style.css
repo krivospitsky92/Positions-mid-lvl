@@ -116,3 +116,9 @@ main {
   border-radius: 50%;
   opacity: 20%;
 }
+
+.circle-1 > img {
+  position: absolute;
+  top: 80px;
+  left: 80px;
+}
