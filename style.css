@@ -66,7 +66,8 @@ main {
 }
 
 .header-text,
-.parag {
+.parag-text,
+.parag-text-2 {
   position: absolute;
   color: whitesmoke;
   font-family: sans-serif;
@@ -78,8 +79,15 @@ main {
   left: 50px;
 }
 
-.parag {
+.parag-text {
   font-size: 3em;
   top: 80px;
   left: 50px;
 }
+
+.parag-text-2 {
+  font-size: 1.4em;
+  top: 190px;
+  left: 50px;
+}
+
